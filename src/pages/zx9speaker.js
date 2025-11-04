@@ -93,6 +93,7 @@ function zx9speaker () {
                 <div>
                     <img src={XX59Img} alt="XX59 Headphones" />
                     <h3>XX59</h3>
+                    <Link to="/XX59HEADPHONES"></Link>
                     <button>SEE PRODUCT</button>
                 </div>
             </div>

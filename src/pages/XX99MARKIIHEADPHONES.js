@@ -55,7 +55,7 @@ function XX99MARKIIHEADPHONES() {
           connectivity and 17-hour battery life, the XX99 Mark II headphones gives you superior
           sound, cutting-edge technology, and a modern design aesthetic.
         </p>
-        <div>
+        
         <h2>IN THE BOX</h2>
         <ul>
           <li><h4>1x</h4> Headphone Unit</li>
@@ -64,7 +64,6 @@ function XX99MARKIIHEADPHONES() {
           <li><h4>1x</h4> 3.5mm 5m Audio Cable</li>
           <li><h4>1x</h4> Travel Bag</li>
         </ul>
-        </div>
       </div>
 
       <div className='xx99mark2-gallery'>
@@ -112,7 +111,7 @@ function XX99MARKIIHEADPHONES() {
         <div className="category-card">
           <img src={SpeakerPreviewImg} alt="Speaker preview" />
           <h3>SPEAKERS</h3>
-          <Link to='/'>
+          <Link to='/zx9speaker'>
             <p>SHOP</p>
           </Link>
         </div>
@@ -120,7 +119,7 @@ function XX99MARKIIHEADPHONES() {
         <div className="category-card">
           <img src={EarphonePreviewImg} alt="Earphones preview" />
           <h3>EARPHONES</h3>
-            <Link to='/'>
+            <Link to='/YX1wireless'>
             <p>SHOP</p>
           </Link>
         </div>

@@ -27,7 +27,7 @@ function Footer() {
                   <li><Link to="/headpones">HEADPHONES</Link></li>
                 
                 
-                  <li><Link to="/speakers">SPEAKERS</Link>></li>
+                  <li><Link to="/speakers">SPEAKERS</Link></li>
                 
                 
                   <li><Link to="/earphones">EARPHONES</Link></li>

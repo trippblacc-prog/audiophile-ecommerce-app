@@ -120,7 +120,7 @@ function XX59HEADPHONES (){
                 <div className="category-card">
                     <img src={EarphonePreviewImg} alt="Earphones preview" />
                     <h3>EARPHONES</h3>
-                    <Link to='/'>
+                    <Link to='/YX1wireless'>
                         <p>SHOP</p>
                     </Link>
                 </div>
