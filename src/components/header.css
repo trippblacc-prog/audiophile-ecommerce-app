@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1); /* subtle horizontal line */
+  margin-bottom: 0; /* remove gap before hero */
+}
+
+#header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1100px;
+}
+
+.logo {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #D87D4A;
+}
+
+.cart-image-container img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

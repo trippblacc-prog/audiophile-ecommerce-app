@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.x99mark1-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.x99mark1-description, .x99mark1-features, .x99mark1-gallery, .x99mark1-youMayLike {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 100px 0;
+  gap: 30px;
+}
+
+.x99mark1-description img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.x99mark1-description div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.x99mark1-description h1 {
+  color: #d87d4a;
+  letter-spacing: 10px;
+  font-size: 14px;
+}
+
+.x99mark1-description h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.x99mark1-description p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.x99mark1-description button {
+  background-color: #d87d4a;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.x99mark1-description button:hover {
+  background-color: #fbaf85;
+}
+
+.x99mark1-features {
+  display: flex;
+  gap: 80px;
+  width: 80%;
+}
+
+.x99mark1-features div {
+  width: 50%;
+}
+
+.x99mark1-features h1 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.x99mark1-features p {
+  color: #555;
+  line-height: 1.8;
+}
+
+.x99mark1-gallery {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  gap: 20px;
+}
+
+.x99mark1-gallery div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.x99mark1-youMayLike {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.x99mark1-youMayLike div {
+  text-align: center;
+}
+
+.x99mark1-youMayLike img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.x99mark1-youMayLike h3 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.x99mark1-youMayLike button {
+  background-color: #d87d4a;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.x99mark1-youMayLike button:hover {
+  background-color: #fbaf85;
+}

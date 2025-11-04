@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.xx99mark2-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  color: #000;
+}
+
+.xx99mark2-description,
+.xx99mark2-features,
+.xx99mark2-gallery,
+.xx99mark2-youMayLike {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  width: 80vw;
+  margin: 100px 0;
+}
+
+.xx99mark2-description img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.xx99mark2-description div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 45%;
+}
+
+.xx99mark2-description h1 {
+  color: #d87d4a;
+  letter-spacing: 5px;
+  font-size: 1rem;
+}
+
+.xx99mark2-description h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.xx99mark2-description p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.btn-addToCart {
+  background-color: #d87d4a;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-addToCart:hover {
+  background-color: #fbaf85;
+}
+
+.xx99mark2-features {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  gap: 5px;
+}
+
+.xx99mark2-features div {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.xx99mark2-features h1 {
+  font-size: 2rem;
+}
+
+.xx99mark2-features p {
+  color: #555;
+  line-height: 1.7;
+  width: 65%;
+  text-align: center;
+}
+
+.xx99mark2-features ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.xx99mark2-features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+}
+
+.xx99mark2-features li h4 {
+  color: #d87d4a;
+  margin-right: 5px;
+}
+
+.xx99mark2-gallery {
+  display: flex;
+  gap: 5px;
+}
+
+.xx99mark2-gallery div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.xx99mark2-youMayLike {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  width: 80vw;
+}
+
+.youMayLike-div {
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.youMayLike-div:hover {
+  transform: scale(1.05);
+}
+
+.youMayLike-div img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.btn-seeProduct {
+  width: 180px;
+  background-color: #d87d4a;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-seeProduct:hover {
+  background-color: #fbaf85;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 80vw;
+  margin: 100px 0;
+}
+
+.category-card {
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  flex: 1;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card img {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.category-card h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.category-card p {
+  color: #d87d4a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* Default desktop styles remain as they are */
+
+/* 💻 Tablet view (769px–1024px) */
+@media (max-width: 1024px) {
+  .xx99mark2-page {
+    width: 90vw;
+  }
+
+  .xx99mark2-description {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .xx99mark2-gallery,
+  .xx99mark2-youMayLike {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .youMayLike-div {
+    width: 45%;
+  }
+}
+
+/* 📱 Mobile view (≤768px) */
+@media (max-width: 768px) {
+  .xx99mark2-page {
+    flex-direction: column;
+    width: 95vw;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .xx99mark2-description {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .xx99mark2-description img {
+    width: 50%;
+    
+  }
+
+  .xx99mark2-gallery,
+  .xx99mark2-youMayLike {
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  .youMayLike-div {
+    width: 90%;
+  }
+}

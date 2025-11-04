@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+
+/* === HERO SECTION === */
+.hero-container {
+  background-image: url('../assets/home/desktop/image-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80vw; /* 80% of desktop screen width */
+  height: 80vh; /* 80% of viewport height */
+  padding-left: 8%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.hero-content {
+  max-width: 380px;
+}
+
+.hero-content h4 {
+  color: #d87d4a;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.see-product-btn {
+  background-color: #d87d4a;
+  color: white;
+  border: none;
+  padding: 14px 34px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  border-radius: 6px;
+}
+
+.see-product-btn:hover {
+  background-color: #fbaf85;
+}
+
+/* === CATEGORY SECTION === */
+.category-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  width: 80vw;
+  margin: 100px 0;
+}
+
+.category-card {
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.category-card a{
+  text-decoration: none;
+  color: #fbaf85;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card img {
+  width: 120px; /* Bigger and centered */
+  height: auto;
+  border-radius: 10px;
+}
+
+.category-card h3 {
+  margin-top: 20px;
+  color: #101010;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+/* === ZX9 SPEAKER === */
+.zx9-speaker {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #d87d4a;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 40px;
+  color: white;
+}
+
+.zx9-speaker img {
+  width: 320px;
+  height: auto;
+  object-fit: contain;
+}
+
+.zx9-speaker-content {
+  max-width: 400px;
+}
+
+.zx9-speaker-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.zx9-speaker-content p {
+  margin-bottom: 25px;
+  color: #f3f3f3;
+  line-height: 1.5;
+}
+
+.zx9-speaker-content button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.zx9-speaker-content button:hover {
+  background-color: #2c2c2c;
+}
+
+/* === ZX7 SPEAKER === */
+.zx7-speaker {
+  background-image: url('../assets/home/desktop/image-speaker-zx7.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-left: 8%;
+  margin: 80px 0;
+}
+
+.zx7-speaker-content {
+  max-width: 380px;
+  color: #000;
+}
+
+.zx7-speaker-content h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.zx7-speaker-content p {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.zx7-speaker button {
+  border: 1px solid #000;
+  background: transparent;
+  color: #000;
+  padding: 10px 28px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.zx7-speaker button:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* === YX1 EARPHONES === */
+.yx1-earphones {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 80vh;
+  gap: 20px;
+}
+
+.yx1-earphones img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.yx1-earphones-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  width: 50%;
+  /*padding-left: 10%;*/
+}
+
+.yx1-earphones-content h1 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.yx1-earphones-content button {
+  border: 1px solid #000;
+  background: transparent;
+  color: #000;
+  padding: 10px 28px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.yx1-earphones-content button:hover {
+  background-color: #000;
+  color: white;
+}
